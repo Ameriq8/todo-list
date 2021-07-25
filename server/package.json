@@ -1,0 +1,36 @@
+{
+  "name": "discord-dashboard",
+  "version": "1.0.0",
+  "description": "simple discord bot dashboard for todo list with mongodb",
+  "main": "src/app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-mongo": "^3.2.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "mongoose": "^5.13.3",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.12",
+    "passport": "^0.4.1",
+    "passport-discord": "^0.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ameriq8/discord-dashboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ameriq8/discord-dashboard/issues"
+  },
+  "homepage": "https://github.com/Ameriq8/discord-dashboard#readme"
+}
