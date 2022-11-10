@@ -1,2 +1,2 @@
 # discord-bot-backend
-simple discord dashboard backend for todo list with mongodb
+simple discord backend for todo list app with mongodb
